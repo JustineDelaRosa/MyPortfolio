@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justine Dela Rosa</title>
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <script src="https://kit.fontawesome.com/ff7d32663b.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- nav -->
+    <section class="colored-section" id="title">
+
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html"><img src="images/JD.DEV.png" class="img-fluid" alt=""
+                        width="150"></a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav ms-auto text-center">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#projects" class="nav-link">Projects</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a href="#resume" class="nav-link">Resume</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                        <!-- download button for resume -->
+                        <!-- <li class="nav-item">
+                            <a href="assets/JustineDelaRosaResume.pdf" class="nav-link" download>Download Resume</a>
+                        </li> -->
+
+                    </ul>
+                </div>
+            </nav>
+
+
+
+            <!-- Title -->
+            <div class="row">
+                <div class="col-lg-12 text-lg-start text-sm-center title-center">
+                    <h4>Hi, I'm</h4>
+                    <!-- <h1 class="cursor">Justine Dela Rosa.</h1> -->
+
+                    <p><span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                    <a href="#contact"><button type="button" class="btn-lg download-button">
+                            LET'S TALK</button></a>
+                </div>
+            </div>
+        </div>
+        <img src="images/bg-title.jpg" alt="bg" class="title-img img-fluid">
+    </section>
+
+
+    <!-- About -->
+    <section class="white-section" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="about-box col-lg-4">
+                    <img src="images/abt_img.jpg" alt="myImage" class="my-img img-fluid rounded mx-auto d-block">
+                </div>
+                <div class="about-box col-lg-8">
+                    <h2>About</h2>
+                    <p class="abt-p">I am a computer science graduate from Bataan Peninsula State University. I am
+                        pursuing a career in web development because I want to use my skills to create websites that are
+                        both functional and aesthetically pleasing. My goal is to become a web developer who can create
+                        websites that are not only easy to use, but also visually appealing.</p>
+                </div>
+                <!-- download CV button -->
+                <div class="col-lg-12 text-lg-end text-sm-center">
+                    <a href="assets/JustineDelaRosaResume.pdf" class="nav-link" download><button type="button"
+                            class="btn-lg download-button">Download Resume</button></a>
+                </div>
+            </div>
+            <div class="t-stack">
+                <h3 class="pt-4 mt-5">Tech Stack</h3>
+                <div class="pt-3">
+                    <ul class="stack-icons">
+                        <li class="stack-icon">
+                            <i class="fa-brands fa-bootstrap">
+                                <p class="icon-name">Bootstrap</p>
+                            </i>
+
+                            <i class="fa-brands fa-square-js">
+                                <p class="icon-name">JavaScript</p>
+                            </i>
+
+                            <i class="fa-brands fa-html5">
+                                <p class="icon-name">HTML</p>
+                            </i>
+
+                            <i class="fa-brands fa-css3-alt">
+                                <p class="icon-name">CSS</p>
+                            </i>
+
+                            <i class="fa-brands fa-php">
+                                <p class="icon-name">PHP</p>
+                            </i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section class="dark" id="projects">
+        <div class="container py-4">
+            <h1 class="h1 text-center" id="pageHeaderTitle">Projects</h1>
+
+            <article class="postcard dark blue">
+                <a class="postcard__img_link" href="https://parkhunt.herokuapp.com/" target="_blank">
+                    <img class="postcard__img" src="images/parkhunt-img.png" alt="Parkhunt" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title blue text-lg-start"><a href="https://parkhunt.herokuapp.com/"
+                            target="_blank">ParkHunt</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Aims to make vehicle parking much more efficient, secure, and
+                        convenient for drivers. </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa-brands fa-html5"></i></li>
+                        <li class="tag__item"><i class="fa-brands fa-css3-alt"></i></li>
+                        <li class="tag__item"><i class="fa-brands fa-bootstrap"></i></li>
+                        <li class="tag__item"><i class="fa-brands fa-square-js"></i></li>
+                        <li class="tag__item"><i class="fa-brands fa-php"></i></li>
+                    </ul>
+                </div>
+            </article>
+            <!-- <article class="postcard dark red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="https://picsum.photos/501/500" alt="Image Title" />
+                </a>
+                <div class="postcard__text">
+                    <h1 class="postcard__title red text-lg-start"><a href="#">Podcast Title</a></h1>
+                    <div class="postcard__subtitle small">
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eligendi, fugiat asperiores inventore beatae accusamus odit minima enim, commodi quia, doloribus
+                        eius! Ducimus nemo accusantium maiores velit corrupti tempora reiciendis molestiae repellat
+                        vero. Eveniet ipsam adipisci illo iusto quibusdam, sunt neque nulla unde ipsum dolores nobis
+                        enim quidem excepturi, illum quos!</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fas fa-tag mr-2"></i></li>
+                        <li class="tag__item"><i class="fas fa-clock mr-2"></i></li>
+                        <li class="tag__item play red">
+                            <a href="#"><i class="fas fa-play mr-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </article> -->
+        </div>
+    </section>
+
+
+    <!-- CONSTACT -->
+    <section class="contactMe" id="contact">
+
+
+        <form class="cf" action="mailto:justinedelarosa.dev@gmail.com" method="post" enctype="text/plain">
+            <h1>CONTACT</h1>
+            <div class="half left cf">
+                <input type="text" id="input-name" name="Name" placeholder="Name">
+                <input type="email" id="input-email" name="Email" placeholder="Email address">
+                <input type="text" id="input-subject" name="Subject" placeholder="Subject">
+            </div>
+            <div class="half right cf">
+                <textarea name="Message" type="text" id="input-message" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Send Message" id="input-submit">
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/justine-dela-rosa-1829a8b8/" target="_blank"><i
+                class="fa-brands fa-linkedin"></i></a>
+        <a class="footer-link" href="https://github.com/JustineDelaRosa" target="_blank"><i
+                class="fa-brands fa-github"></i></a>
+        <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+        <p class="copyright">© Justine Dela Rosa</p>
+    </section>
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
