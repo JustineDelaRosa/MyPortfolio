@@ -255,7 +255,7 @@ span {
     }
 }
 
-@media(max-width: 575px) {
+@media(max-width: 576px) {
     .title-center p span.typed-text {
         font-weight: 700;
         font-size: 3rem;
@@ -264,6 +264,10 @@ span {
 
     .title-center {
         text-align: center;
+    }
+
+    .title-center p span.cursor {
+        font-size: 3rem;
     }
 }
 
